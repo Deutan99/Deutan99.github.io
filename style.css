@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    background-color: rgb(230, 248, 125);
+  }
+  a {
+    color:black;
+    text-decoration: none;
+
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom: 5px solid rgb(218, 151, 162);
+    margin:0;
+    padding:20px;
+  }
+
+  h2 {
+    font-size:25px;
+    border-bottom: solid red 5px
+    
+
+  }
+
+  ol {
+    border-right: 5px solid rgb(218, 151, 162);
+    width:100px;
+    margin:0;
+    padding:0;
+    font-size: 18px;
+  }
+
+  li {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight:bold;
+  }
+
+  div{
+    border-bottom: 5px;
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+  }
+  #grid ol{
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 30px;
+  }
+
+  #소개 {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-right: 30px;
+  }
+
+  #설명 {
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    font-size:25px;
+    font-weight:550;
+    border : solid blue 5px;
+    border-radius: 10px;
+  }
+
+  #설명2{
+    grid-template-columns: 330px 1fr;
+    font-size:25px;
+    font-weight:550;
+    border : solid blue 5px;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+
+  #설명3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size:25px;
+    font-weight:550;
+    border : solid blue 5px;
+    border-radius: 10px;
+  }
+
+  
+  @media(max-width:700px) {
+    #grid{
+      display:block;
+    }
+    ol{
+      border-right:none;
+    }
+    h1{
+      border-bottom:none;
+    }
+  
+    
+  }
